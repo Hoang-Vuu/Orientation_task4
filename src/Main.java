@@ -48,3 +48,6 @@ List<Event> newEvents = systemState.generateFutureEvents(clock);
 for (Event e : newEvents) {
     eventList.insert(e);
 }
+statistics.record(systemState, clock);
+
+ */
